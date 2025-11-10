@@ -34,15 +34,15 @@ Core components include emotion dynamics, appraisal-based modulation, drive-base
 
 ### Key Features
 
-Formal emotion modeling (Plutchik-8 + appraisal variables)
-Cognitive appraisal integration
-Double-Q reinforcement learning with composite rewards
-Homeostatic drives and desire-based modulation
-LLM-conditioned responses informed by internal affective state
-Modular and extensible architecture for research use
+- Formal emotion modeling (Plutchik-8 + appraisal variables)
+- Cognitive appraisal integration
+- Double-Q reinforcement learning with composite rewards
+- Homeostatic drives and desire-based modulation
+- LLM-conditioned responses informed by internal affective state
+- Modular and extensible architecture for research use
 
 
-###Contact
+### Contact
 
 ✉️ Email: m.askary84@yahoo.com
 🔗 LinkedIn: https://www.linkedin.com/in/majidaskary
