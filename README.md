@@ -19,20 +19,80 @@ The system maintains internal emotional states, learns from user interactions, u
 Core components include emotion dynamics, appraisal-based modulation, drive-based motivation, RL policy learning, and a lightweight hybrid LLM conditioning pipeline.
 
 ##
+## Getting Started
+### 1. Clone the repository
+git clone https://github.com/majidaskary/EAI.git
+cd EAI
+
+### 2. Create virtual environment (optional)
+python -m venv eai_env
+source eai_env/bin/activate   # or eai_env\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run a simple training/test scenario
+python scenario_train.py --episodes 1 --style generated
+
+This will:
+- load the agent
+- process emotional appraisal
+- update internal drives
+- apply RL action selection
+- generate an LLM-conditioned response
+  
+##
 ### Project Structure
 ```
-│   .gitignore
-│   agent_core/                 # Main agent loop and hybrid reasoning pipeline
-│   emotion_model/              # Emotion state, appraisal system, interaction rules
-│   rl_module/                  # Reinforcement learning (Q/Double-Q), reward system
-│   llm_interface/              # LLM adapter and response generation layer
-│   memory_system/              # Short-term, long-term, and residual memory
-│   drives_motivation/          # Homeostatic drives and desire mechanisms
-│   config/                     # Reward weights, drive settings, emotion mappings
-│   utils/                      # Shared tools and helpers
-│   examples/                   # Sample scenarios and testing scripts
-│   README.md
+EAI/
+│
+├── agent_core.py              # Main hybrid agent loop
+├── agent_emotion_state.py     # Emotion dynamics & decay
+├── agent_appraisal.py         # Cognitive appraisal (goal, norm, control)
+├── agent_interaction.py       # Cross-emotion interactions
+├── agent_personality.py       # Trait modulation (optimism, empathy...)
+├── agent_memory.py            # Episodic & long-term memory + profiling
+├── agent_drives.py            # Survival/attachment/identity/growth
+├── agent_desire.py            # Motivation & desire update rules
+│
+├── learning_module.py         # Q-learning / Double-Q / SARSA + config
+├── learning_fuzzy_engine.py   # Fuzzy smoothing of emotion signals
+├── learning_feedback_evaluator.py # Environment reward scoring
+│
+├── llm_module.py              # LLM integration layer
+│
+├── scenario_train.py          # Example interactive training loop
+├── scenario_test.py           # Minimal test scenario
+│
+├── q_table.json               # Persistent RL memory
+├── reward_config.json         # Reward weights + appraisal modulation
+├── drives_config.json         # Homeostatic drive parameters
+│
+└── README.md
 ```
+
+##
+### Roadmap (High-Level)
+
+### Phase A — Emotion Model
+  Plutchik-8 mapping
+  Fuzzy smoothing
+  Emotion decay & homeostasis
+   
+### Phase B — Cognitive Layer
+  Appraisal (goal relevance, prediction error, controllability, norms)
+  Expectation baseline + prediction error (PE) dynamics
+
+### Phase C — Hybrid Policy
+  RL (Double-Q baseline)
+  Affect-biased action selection
+  Persona-aligned reward shaping
+
+### Phase D — Advanced Internal Architecture (current)
+  Drives (survival, attachment, identity, growth)
+  Desire & motivation module
+  Dynamic reward weight adaptation
+  LLM integration with internal emotional state
 
 ##
 ### Key Features:
