@@ -101,6 +101,24 @@ EAI/
 - LLM-conditioned responses informed by internal affective state
 - Modular and extensible architecture for research use
 
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
+## License
+
+This project is licensed under the **Apache 2.0 License**.
+
+You are free to use, modify, and distribute the code, including for commercial purposes, as long as you:
+
+- Include the original copyright notice.
+- Include a copy of the Apache 2.0 license.
+- State any changes you make.
+- Do not hold the author liable for any damages.
+
+See the full license in the [LICENSE](./LICENSE) file.
+
+
+
 ## Contact:
 
 Developer: Majid Askary
