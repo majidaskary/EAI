@@ -48,8 +48,9 @@ Core components include emotion dynamics, appraisal-based modulation, drive-base
 ##
 ### Contact:
 
-✉️ Email: m.askary84@yahoo.com
+Developer: Majid
 
+✉️ Email: m.askary84@yahoo.com
 🔗 LinkedIn: https://www.linkedin.com/in/majidaskary
 
 
