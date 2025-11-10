@@ -17,7 +17,7 @@ This project explores how emotional models, cognitive appraisal mechanisms, rein
 The system maintains internal emotional states, learns from user interactions, updates expectations through prediction errors, and generates context-aware responses using an LLM.
 Core components include emotion dynamics, appraisal-based modulation, drive-based motivation, RL policy learning, and a lightweight hybrid LLM conditioning pipeline.
 
-** :file_cabinet: project Structure**
+### :file_cabinet: project Structure
 ```
 │   .gitignore
 │   agent_core/                 # Main agent loop and hybrid reasoning pipeline
@@ -32,7 +32,7 @@ Core components include emotion dynamics, appraisal-based modulation, drive-base
 │   README.md
 ```
 
-** Key Features**:
+### Key Features:
 
 - Formal emotion modeling (Plutchik-8 + appraisal variables)
 - Cognitive appraisal integration
@@ -42,7 +42,7 @@ Core components include emotion dynamics, appraisal-based modulation, drive-base
 - Modular and extensible architecture for research use
 
 
-** Contact**:
+### Contact:
 
 ✉️ Email: m.askary84@yahoo.com
 🔗 LinkedIn: https://www.linkedin.com/in/majidaskary
