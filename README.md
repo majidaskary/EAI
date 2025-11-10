@@ -1,6 +1,6 @@
 # Hybrid Emotional–Cognitive Agent with LLM Integration
 
-<img src="info/background.png" alt="background" width="85%">
+![Uploading EAI.png…]()
 
 ## Overview
 **Repository**: `https://github.com/majidaskary/EAI.git`  
