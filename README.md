@@ -1,7 +1,7 @@
 # Hybrid Emotional–Cognitive Agent with LLM Integration
 
 <p align="center">
-  <img width="512" height="512" alt="EAI" src="https://github.com/user-attachments/assets/ca621f50-c940-4a41-a71a-38993d967821" />
+  <img width="400" height="400" alt="EAI" src="https://github.com/user-attachments/assets/912761d9-9b91-40ef-8c24-66b70a3e190f" />
 </p>
 
 
