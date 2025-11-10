@@ -75,24 +75,24 @@ EAI/
 ### Roadmap (High-Level)
 
 ### Phase A — Emotion Model
-  Plutchik-8 mapping
-  Fuzzy smoothing
-  Emotion decay & homeostasis
+  - Plutchik-8 mapping
+  - Fuzzy smoothing
+  - Emotion decay & homeostasis
    
 ### Phase B — Cognitive Layer
-  Appraisal (goal relevance, prediction error, controllability, norms)
-  Expectation baseline + prediction error (PE) dynamics
+  - Appraisal (goal relevance, prediction error, controllability, norms)
+  - Expectation baseline + prediction error (PE) dynamics
 
 ### Phase C — Hybrid Policy
-  RL (Double-Q baseline)
-  Affect-biased action selection
-  Persona-aligned reward shaping
+  - RL (Double-Q baseline)
+  - Affect-biased action selection
+  - Persona-aligned reward shaping
 
 ### Phase D — Advanced Internal Architecture (current)
-  Drives (survival, attachment, identity, growth)
-  Desire & motivation module
-  Dynamic reward weight adaptation
-  LLM integration with internal emotional state
+  - Drives (survival, attachment, identity, growth)
+  - Desire & motivation module
+  - Dynamic reward weight adaptation
+  - LLM integration with internal emotional state
 
 ##
 ### Key Features:
