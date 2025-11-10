@@ -70,7 +70,7 @@ EAI/
 └── README.md
 ```
 
-### Roadmap (High-Level)
+## Roadmap (High-Level)
 
 ### Phase A — Emotion Model
   - Plutchik-8 mapping
@@ -92,7 +92,7 @@ EAI/
   - Dynamic reward weight adaptation
   - LLM integration with internal emotional state
 
-### Key Features:
+## Key Features:
 
 - Formal emotion modeling (Plutchik-8 + appraisal variables)
 - Cognitive appraisal integration
