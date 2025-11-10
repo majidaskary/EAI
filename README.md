@@ -5,10 +5,13 @@
 </p>
 
 
+
 ## Overview
 **Type**:            Personal R&D Project  
 **Duration**:        Sep 2025 ‐ Present    
 **Team**:            Individual Project
+
+
 
 
 ## Mission
@@ -17,6 +20,8 @@
 This project explores how emotional models, cognitive appraisal mechanisms, reinforcement learning, and large language models can be combined to build an adaptive interactive agent.
 The system maintains internal emotional states, learns from user interactions, updates expectations through prediction errors, and generates context-aware responses using an LLM.
 Core components include emotion dynamics, appraisal-based modulation, drive-based motivation, RL policy learning, and a lightweight hybrid LLM conditioning pipeline.
+
+
 
 
 ## Getting Started
@@ -40,6 +45,9 @@ This will:
 - update internal drives
 - apply RL action selection
 - generate an LLM-conditioned response
+
+
+
   
 ## Project Structure
 ```
@@ -70,6 +78,8 @@ EAI/
 └── README.md
 ```
 
+
+
 ## Roadmap (High-Level)
 
 ### Phase A — Emotion Model
@@ -92,7 +102,9 @@ EAI/
   - Dynamic reward weight adaptation
   - LLM integration with internal emotional state
 
-## Key Features:
+
+
+## Key Features
 
 - Formal emotion modeling (Plutchik-8 + appraisal variables)
 - Cognitive appraisal integration
@@ -119,7 +131,8 @@ See the full license in the [![License](https://img.shields.io/badge/License-Apa
 
 
 
-## Contact:
+
+## Contact
 
 Developer: Majid Askary
 
