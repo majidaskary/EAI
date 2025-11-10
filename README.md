@@ -1,13 +1,19 @@
 # EAI
+Hybrid Emotional–Cognitive Agent with LLM Integration
 
 <img src="info/background.png" alt="background" width="85%">
 
 ## Overview
 **Repository**: `https://github.com/majidaskary/07-delivery_market_Team_6/tree/main`  
-**Type**: Learning and Consolidation  
+**Type**: Personal R&D Project  
 **Duration**: 1 week  
 **Deadline**: 06/12/2024 at 4:00 PM  
 **Team**: Group Project 
+
+Hybrid Emotional Agent with LLM Integration                     Sep 2025 ‐ Present
+(Personal R&D Project)
+Developing a hybrid intelligent agent by integrating emotion modeling, cognitive appraisal theory, reinforcement learning, and large language models (LLMs) to achieve emotionally-driven interaction.
+
 
 Hybrid Emotional–Cognitive Agent with LLM Integration
 
