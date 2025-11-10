@@ -102,7 +102,7 @@ EAI/
 - Modular and extensible architecture for research use
 
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 
 ## License
 
@@ -115,7 +115,7 @@ You are free to use, modify, and distribute the code, including for commercial p
 - State any changes you make.
 - Do not hold the author liable for any damages.
 
-See the full license in the [LICENSE](./LICENSE) file.
+See the full license in the [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) file.
 
 
 
