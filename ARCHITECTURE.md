@@ -1,91 +1,78 @@
-# Architecture Overview  
-*A high-level, conceptual design for a modular cognitive–emotional agent system.*
+# ARCHITECTURE  
+## Hybrid Emotional Agent with LLM Integration
+
+This document outlines the **high-level architectural model** used in the Emotional Agent project.  
+It intentionally avoids implementation details while clearly presenting the system’s conceptual structure.
 
 ---
 
-## Design Philosophy  
-The architecture is guided by the following principles:
+## 1. Architectural Philosophy  
 
-### 1. Modularity  
-Each part of the system can be extended or replaced independently.
+### • Hybrid Intelligence  
+Combining LLM generative reasoning with structured cognitive and emotional processes.
 
-### 2. Separation of Responsibilities  
-Interpretation, reasoning, behavior planning, interaction, and data handling remain fully isolated at the conceptual layer.
+### • Emotional-Cognitive Integration  
+Internal affective state, appraisal mechanisms, and reflective adaptation form the agent’s core identity.
 
-### 3. Scalability  
-The system grows over time without architectural conflict.
+### • Modular & Replaceable  
+Each layer is independent and extendable.
 
-### 4. Human-Centered  
-The framework prioritizes clarity, interpretability, and intentional interaction patterns.
+### • Reinforcement-Learning-Inspired Adaptation  
+The agent adjusts its behavioral tendencies across interactions.
 
-### 5. Evolutionary Design  
-This document is maintained as a living reference that evolves historically.
-
----
-
-## System Layers (Conceptual)
-
-### **1. Core Layer**  
-The foundation upon which all other layers depend.  
-It provides shared conceptual components and definitions.
-
-### **2. Modules Layer**  
-Extendable units that introduce specific capabilities (e.g., interpretation models, decision modules, behavior patterns).  
-Modules do not depend on each other.
-
-### **3. Interaction Layer**  
-Defines how the system communicates externally:  
-- interaction styles  
-- protocols  
-- response strategies  
-
-### **4. AI/Agents Layer (Optional)**  
-A conceptual space for adaptive, personality-driven, or cognitive–emotional patterns.  
-Not tied to specific techniques.
-
-### **5. Data & Analytics Layer**  
-A storage space for high-level insights, system states, or interaction summaries—purely conceptual.
-
-### **6. Testing Layer**  
-Ensures alignment with expected behavior through high-level evaluation scenarios.
+### • Explainability & Transparency  
+Each layer provides clear conceptual responsibility.
 
 ---
 
-## Data Flow (Non-Technical)
+## 2. System Layers (Conceptual)
 
-1. **Input**  
-   The system receives a signal, message, or interaction.
+┌───────────────────────────────┐ │   Interaction Layer (LLM)     │ ├───────────────────────────────┤ │   Decision Layer (RL-inspired)│ ├───────────────────────────────┤ │   Emotional State Layer        │ ├───────────────────────────────┤ │   Cognitive Appraisal Layer    │ ├───────────────────────────────┤ │   Memory & Profile Layer       │ └───────────────────────────────┘
 
-2. **Assessment**  
-   Modules interpret the meaning or intent.
+### **A. Cognitive Appraisal Layer**  
+Evaluates:  
+- goal relevance  
+- expectation dynamics  
+- contextual interpretation  
+- internal meaning assignment  
 
-3. **High-Level Reasoning**  
-   The agent evaluates context, style, and conceptual state.
+### **B. Emotional State Layer**  
+Maintains:  
+- affective variables  
+- dynamic drift & decay  
+- cross-emotion interactions  
+- dominant mood  
 
-4. **Response Planning**  
-   The system determines how it should respond.
+### **C. Decision Layer (RL-inspired)**  
+Conceptually includes:  
+- reward-guided adjustment  
+- action tendencies  
+- hybrid decision shaping (emotion + cognition + RL concepts)  
 
-5. **Output**  
-   A structured, coherent response is produced.
+### **D. Interaction Layer (LLM)**  
+LLM is responsible for:  
+- language interpretation  
+- expressive narrative generation  
+- emotion-conditioned responses  
 
-6. **Reflection**  
-   Insights or traces may be stored for future improvement.
+### **E. Memory & Profile Layer**  
+Stores:  
+- abstracted emotional traces  
+- short/long-term patterns  
+- user affective tendencies  
 
 ---
 
-## Decision Flow (Abstract)
-- Input → Understanding → Contextual Weighting → Behavioral Choice → Response  
-- No internal algorithms or scoring functions are disclosed.
+## 3. Conceptual Agent Cycle
+
+Input → Cognitive Appraisal → Emotional Update → Drives / Desires Influence → Adaptive Decision Selection → LLM-Conditioned Response → Feedback Integration → Memory Update → Emotional Drift
 
 ---
 
-## Modularity Notes
-- Every module exists behind a conceptual interface.  
-- No module assumes internal knowledge of another.  
-- This alignment allows future teams to implement or replace components freely.
+## 4. Extensibility  
+
+The architecture is designed to evolve as new cognitive, emotional, or adaptation models are explored.  
+This file will grow historically as the research advances.
 
 ---
 
-## Historical Maintenance  
-This document evolves incrementally.  
-Changes are appended as the system vision matures, not overwritten.
