@@ -1,1 +1,30 @@
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Temp
+tmp/
+*.tmp
+*.log
+
+# Environment
+.env/
+.venv/
+venv/
+
+# Python cache (in case of future code)
+__pycache__/
+*.pyc
+
+# Data placeholders
+data/
+datasets/
